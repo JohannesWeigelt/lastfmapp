@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">LastFM App</string>
+    <string name="hint_musician">Welchen Musiker suchst du?</string>
+    <string name="label_tracks">Songs</string>
+
+    <string name="message_loading_albums">Alben werden geladen&#8230;</string>
+    <string name="message_loading_details">Details werden geladen&#8230;</string>
+    <string name="error_albums">"Die Alben dieses Musikers konnten nicht geladen werden"</string>
+    <string name="error_tracks">"Die Tracks konnten nicht geladen werden"</string>
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools" android:id="@+id/nav_graph"
+            app:startDestination="@id/dest_music_master">
+
+    <fragment android:id="@+id/dest_music_master"
+              android:name="lastfmapp.home.de.lastfmapp.MusicMasterFragment"
+              tools:layout="@layout/fragment_music_master"
+              android:label="@string/app_name">
+        <action android:id="@+id/action_album_master_to_detail"
+                app:destination="@id/dest_music_detail"
+        />
+    </fragment>
+    <fragment android:id="@+id/dest_music_detail"
+              android:name="lastfmapp.home.de.lastfmapp.MusicDetailFragment"
+              android:label="@string/app_name"
+              tools:layout="@layout/fragment_music_detail">
+        <argument android:name="album"/>
+    </fragment>
+</navigation>

@@ -1,0 +1,4 @@
+Application name 	LastFM App
+API key 		665441fbd318719ecc654e868d8b0f01
+Shared secret 		e949212740ddc14b8a5fe36be4505112
+Registered to 		JohannesWeigelt
